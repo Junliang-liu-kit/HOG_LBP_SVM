@@ -20,11 +20,13 @@ SVM (support vector machines, SVM) is a common binary classification model of ma
 * environment: python 3.6.13; scikits.learn 0.22.1
 * hog_svm.py is used to train and test SVM model using HOG featrue. 
 * LBP_svm is used to train and test SVM model using LBP featrue.
-* predict_svm.py can use a well-trained model to directly classify dog and cat. I have also saved two well-trained model in file "model"
+* predict_svm.py can use a well-trained model to directly classify dog and cat. I have also saved two well-trained model in folder "model"
 * You need to set the image size and resize all images. change_size.py can help you to finish this work
 
 ## 3.some tips
-* The model is obtained by extracting the hog feature of the picture, and then trained by SVM, and finally predicted by the model, and the result is written into the result.txt file.
+* The image feature is obtained by feature extraction method, and then is used to train SVM model, and finally predicted by the model, and the result is written into the result.txt file.
+* The folder "predict", "test", "train", involved in this project, you need to creat it by yourself, and don't forget to change the path of saving the images and labels
+* In this project, i used SVM to classify cat and dog based on the dataset “Kaggle”. If you want to train your own classifer, you need to modify parameter "label_map" to your labels
 
 ## 4.Reference
 
