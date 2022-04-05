@@ -2,19 +2,19 @@
 
 ## 1.Principle introduction
 
-Feature extraction methods HOG (Histogram of Oriented Gradient) and LBP (Local Binary Pattern), both features have been proven successful in various vision tasks such as object classification, texture analysis and face recognition。<br>
+* Feature extraction methods HOG (Histogram of Oriented Gradient) and LBP (Local Binary Pattern), both features have been proven successful in various vision tasks such as object classification, texture analysis and face recognition。<br>
 
-About HOG:
+* About HOG:
 HOG focuses more on shape information. <br>
 [Introduction in WIKI](https://en.wikipedia.org/wiki/Histogram_of_oriented_gradients)<br>
 [Intorduction in chinese](https://blog.csdn.net/hujingshuang/article/details/47337707)<br>
 
-About LBP:
+* About LBP:
 LBP emphasizes texture information within each patch.<br>
 [Introduction in WIKI](https://en.wikipedia.org/wiki/Local_binary_patterns)<br>
 [Intorduction in chinese](https://www.cnblogs.com/hyb965149985/p/10743022.html)<br>
 
-SVM (support vector machines, SVM) is a common binary classification model of machine learning.Hier i recommend the AndrewNg "machine learning" course on coursera to learn SVM.<br>
+* SVM (support vector machines, SVM) is a common binary classification model of machine learning.Hier i recommend the AndrewNg "machine learning" course on coursera to learn SVM.<br>
 
 ## 2.About code
 * environment: python-3.6.13; scikits.learn-0.22.1
@@ -31,5 +31,5 @@ SVM (support vector machines, SVM) is a common binary classification model of ma
 ## 4.Reference
 
 * Github: HOG_SVM of CHNicelee https://github.com/CHNicelee/HOG_SVM.git
-* Dataset Kaggle: https://www.kaggle.com/c/dogs-vs-cats/data
+* Dataset Kaggle https://www.kaggle.com/c/dogs-vs-cats/data
 
