@@ -1,6 +1,6 @@
 # HOG+SVM
 
-HOG + SVM 或 LBP + SVM是支持向量机分类常用方法
+Feature extraction methods HOG (Histogram of Oriented Gradient) and LBP (Local Binary Pattern), Both features have been proven successful in various vision tasks such as object classification, texture analysis and face recognition, etc. HOG and LBP are complementary in the sense that HOG focuses more on shape information while LBP emphasizes texture information within each patch. The advantage of such combination was also reported in for human detection task.
 
 1.方法介绍
 2.关于代码
